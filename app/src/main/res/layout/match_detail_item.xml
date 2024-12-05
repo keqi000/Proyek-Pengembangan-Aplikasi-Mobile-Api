@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Home Team Name and Score -->
+    <TextView
+        android:id="@+id/matchHometeamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home Team"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/homeScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="16sp" />
+
+    <!-- Away Team Name and Score -->
+    <TextView
+        android:id="@+id/matchAwayteamName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Away Team"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/awayScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="16sp" />
+
+    <!-- Match Date and Status -->
+    <TextView
+        android:id="@+id/matchDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/matchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="14sp" />
+
+    <!-- RecyclerView for Goalscorers -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/goalscorerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView for Cards -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cardsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView for Substitutions -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/substitutionsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView for Lineup -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lineupList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- RecyclerView for Statistics -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/statisticsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

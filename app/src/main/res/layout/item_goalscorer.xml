@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Container for Home and Away Fault -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Home Fault TextView -->
+        <TextView
+            android:id="@+id/homeScorer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home Player Fault"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:gravity="start" />
+
+        <!-- Card TextView (Centered between Home and Away) -->
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:gravity="center"
+            android:layout_weight="0"
+            android:layout_marginHorizontal="8dp" />
+
+        <!-- Away Fault TextView -->
+        <TextView
+            android:id="@+id/awayScorer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Away Player Fault"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:gravity="end" />
+    </LinearLayout>
+</LinearLayout>

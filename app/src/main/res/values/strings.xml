@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplikasi Bola API</string>
+    <string name="score_format">%1$s - %2$s</string>
+    <string name="goals_format">%1$s:%2$s</string>
+    <string name="league_badge">League Badge</string>
+    <string name="team_badge">Team Badge</string>
+</resources>
